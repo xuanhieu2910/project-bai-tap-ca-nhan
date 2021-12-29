@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    background-color:#e2e3e5;
+}
+
+#app-header{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    background-color: #d4edda;
+}
+
+
+#app--body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#left{
+    width: 20%;
+    background-color: #cce5ff;
+    padding-left: 20px;
+}
+
+.fa-book{
+    padding-right: 10px;
+}
+
+#middler{
+    width: 45%;
+    background-color: #cce5ff;
+}
+
+#right{
+    width: 30%;
+    background-color: #cce5ff;
+    padding-left: 20px;
+}
+
+
+#middler--header{
+    text-align: center;
+}
+
+#foulder{
+    padding-left: 30px;
+}
+
+.fa-tags{
+    padding-right: 10px;
+}
+
+.weeken{
+    height: 30px;
+    width: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.weeken:hover{
+    background-color: #17a2b8;
+    color: white;
+}
+
+.week{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.button-baitap{
+    height: 30px;
+    width: 30px;
+    padding: 5px auto;
+    outline-style: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: none;
+}
+
+.button-baitap:hover{
+    background-color: aquamarine;
+}
+#body--result{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    height: 500px;
+}
+
+#input{
+    margin-bottom: 10px;
+    resize: none;
+    outline-style: none;
+}
+
+#output{
+    resize: none;
+    outline-style: none;
+}
+
+
+
+#result{
+    width: 100px;
+    background-color: #17a2b8;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+    resize: none;
+}
+#result:hover{
+    opacity: 0.5;
+}
+
+.active{
+    background-color:#007bff;
+}
+
+.avtive--baitap{
+    background-color:#28a745;
+    display: block;
+}
+
+/*.week-one{*/
+/*    display: none;*/
+/*}*/
+
+
+/*.week-two{*/
+/*    display: none;*/
+/*}*/
+
+/*.week-three{*/
+/*    display: none;*/
+/*}*/
+
+.active--week{
+    display: block;
+}
+
+#code{
+    height: 500px;
+    width: 95%;
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    overflow: scroll;
+    resize: none;
+    outline-style: none;
+    margin-top: 20px;
+}
+
+
+#left--body{
+    border: 1px solid black;
+    padding:10px 0px 10px 10px;
+    margin-right: 30px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#inputText{
+    resize: none;
+    outline: none;
+}
+
+#result{
+    position: relative;
+    left: 85%;
+    cursor: pointer;
+}
+
+#outputText{
+    cursor: pointer;
+    outline: none;
+}
